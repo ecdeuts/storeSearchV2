@@ -13,10 +13,10 @@ def sendFirebase(info, parent):
 def authorization():
         #authorizes script for use of Yelp API
 	auth = Oauth1Authenticator(
-		consumer_key = "qPax5LNdfH6cqZGxigS1Rg",
-		consumer_secret = "h3Tqfk7nUvW2krMVBEGB5TmCtWA",
-		token = "gCTsxxm_N98BczBYfpW8Z2Zx05HFwjP0",
-		token_secret = "Kc2LMgNiUhFJN_-A6ltygKzD_c4"
+		consumer_key = "KEY",
+		consumer_secret = "SECRET",
+		token = "TOKEN",
+		token_secret = "TOKEN_SECRET"
 
 		)	
 	client = Client(auth)
